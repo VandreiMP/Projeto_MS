@@ -1,0 +1,1 @@
+alter table transaction add constraint ck_transaction_origem check(origem in ('D', 'G'));
